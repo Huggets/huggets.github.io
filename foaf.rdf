@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xml:lang="fr">
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xml:lang="fr">
 
-  <foaf:Person rdf:about="https://huggets.github.io/#me">
-    <foaf:name>Hugo Billerit</foaf:name>
-    <foaf:givenName>Hugo</foaf:givenName>
-    <foaf:familyName>Billerit</foaf:familyName>
-    <foaf:nick>Huggets</foaf:nick>
-    <foaf:homepage rdf:resource="https://huggets.github.io"/>
-    <foaf:img rdf:resource="https://avatars.githubusercontent.com/u/48413879?v=4"/>
-    <foaf:interest rdf:resource="https://fr.wikipedia.org/wiki/Programmation"/>
-    <foaf:interest rdf:resource="https://fr.wikipedia.org/wiki/C_(langage)"/>
-  </foaf:Person>
+    <foaf:Person rdf:about="https://huggets.github.io/#me">
+        <foaf:name>Hugo Billerit</foaf:name>
+        <foaf:familyName>Billerit</foaf:familyName>
+        <foaf:givenName>Hugo</foaf:givenName>
+        <foaf:nick>Huggets</foaf:nick>
+        <foaf:homepage rdf:resource="https://huggets.github.io" />
+        <foaf:OnlineAccount>
+            <foaf:accountName>Huggets</foaf:accountName>
+            <foaf:accountServiceHomepage rdf:resource="https://github.com" />
+        </foaf:OnlineAccount>
+
+        <foaf:img rdf:resource="https://avatars.githubusercontent.com/u/48413879?v=4" />
+        <foaf:interest rdf:resource="https://fr.wikipedia.org/wiki/Programmation" />
+        <foaf:interest rdf:resource="https://fr.wikipedia.org/wiki/C_(langage)" />
+
+        <foaf:Project>
+            <foaf:name>Huggets.github.io</foaf:name>
+            <foaf:homepage rdf:resource="https://huggets.github.io" />
+            <foaf:description>Mon site personnel</foaf:description>
+            <foaf:topic rdf:resource="https://fr.wikipedia.org/wiki/HTML" />
+            <foaf:topic rdf:resource="https://fr.wikipedia.org/wiki/RDF" />
+        </foaf:Project>
+    </foaf:Person>
 
 </rdf:RDF>
